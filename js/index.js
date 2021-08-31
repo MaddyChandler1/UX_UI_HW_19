@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("div.grid-item").mouseenter(function() {
-        $(this).find('div.text-block-img').stop().show();
+        $(this).find('div.text-block-img').show();
     });
 
     $("div.grid-item").mouseleave(function() {
